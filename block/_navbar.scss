@@ -1,0 +1,52 @@
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar_links
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.navbar_link
+{
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+color: #83888F;
+}
+
+.navbar_link:hover
+{
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+color: #333D4B;
+transition: all 0.1s;
+}
+
+.navbar_img
+{
+    width: 236px;
+    height: 26px;
+}

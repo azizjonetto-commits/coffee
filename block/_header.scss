@@ -1,0 +1,42 @@
+.header {
+  background-image: url(../img/Bitmap.png);
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 32px;
+  padding: 117px 85px;
+  border-radius: 20px;
+  margin-top: 43px;
+}
+
+.header_title {
+    width: 493px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+}
+
+.header_text
+{
+    width: 445px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+mix-blend-mode: normal;
+opacity: 0.8;
+}
+
+.header_btn
+{
+    @include btn();
+    margin-top: 24px;
+}
