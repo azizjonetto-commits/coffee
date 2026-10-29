@@ -1,15 +1,19 @@
-@mixin btn()
-{
-width: 217px;
-height: 56px;
-background: #66D2CF;
-border-radius: 6px;
-font-family: 'Fraunces';
-font-style: normal;
-font-weight: 900;
-font-size: 18px;
-line-height: 25px;
-text-align: center;
-color: #FEFCF7;
-border: none;
+@mixin btn() {
+  width: 217px;
+  height: 56px;
+  background: #66d2cf;
+  border-radius: 6px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  border: none;
+
+  &_btn:hover {
+    color: #0aa49f;
+    transition: all 0.2s;
+  }
 }

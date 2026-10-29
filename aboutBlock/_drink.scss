@@ -1,0 +1,151 @@
+.drink {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 125px;
+  margin: auto;
+  margin-top: 170px;
+}
+
+.section {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.section_title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888f;
+}
+
+.section_card {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  padding: 32px 28px;
+  padding-bottom: 52px;
+  gap: 24px;
+  border-radius: 8px;
+}
+
+.card_white {
+  background-color: #f4f1eb;
+}
+
+.card_green {
+  background-color: #0e8784;
+}
+
+.card_yellow {
+  background-color: #fdd6ba;
+}
+
+.card_title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333d4b;
+}
+
+.card_title2 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.card_text {
+  width: 172px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  margin-bottom: 52px;
+}
+
+.card_text2 {
+  width: 172px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  margin-bottom: 52px;
+}
+
+.section_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+}
+
+.drink_right {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.drink_btn {
+  @include btn();
+}
+
+.drink_left {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.drink_number {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+  margin-right: 25px;
+}
+
+.drink_text {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+}
+
+.drink_text:hover {
+  color: #333d4b;
+  transition: all 0.1s;
+}
+
+.drink_hr {
+  width: 255px;
+  height: 1px;
+  background: #83888f;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  margin: 24px 0px;
+}
+
+.drink_btn {
+  margin-left: 510px;
+}

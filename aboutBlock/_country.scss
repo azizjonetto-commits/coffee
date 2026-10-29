@@ -1,0 +1,46 @@
+.country
+{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 72px;
+    margin-top: 170px;
+}
+
+.head
+{
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #83888F;
+}
+
+.country_div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.country_card
+{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.country_title
+{
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #333D4B;
+}

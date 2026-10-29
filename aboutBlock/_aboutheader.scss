@@ -1,0 +1,33 @@
+.about_header {
+  height: 451px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 24px;
+  background-image: url(../about_img/Bitmap.jpg);
+  block-size: cover;
+  background-repeat: no-repeat;
+  padding: 137px 85px;
+  margin-left: 10px;
+  margin-top: 43px;
+}
+
+.about_header_title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+}
+
+.about_header_text {
+  width: 445px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+}
