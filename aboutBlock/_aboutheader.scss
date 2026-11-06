@@ -11,9 +11,8 @@
   padding: 137px 85px;
   margin-left: 10px;
   margin-top: 43px;
-}
-
-.about_header_title {
+  
+&_title {
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
@@ -22,7 +21,7 @@
   color: #fefcf7;
 }
 
-.about_header_text {
+&_text {
   width: 445px;
   font-family: "Barlow";
   font-style: normal;
@@ -30,4 +29,5 @@
   font-size: 16px;
   line-height: 26px;
   color: #fefcf7;
+}
 }

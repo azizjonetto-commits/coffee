@@ -9,71 +9,115 @@
   top: 75px;
   background-color: rgb(40, 47, 56);
   position: relative;
+
+  &_title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #fefcf7;
+  }
+
+  &_text {
+    width: 540px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #fefcf7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 220px;
+  }
+
+  &_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 350px;
+    height: 382px;
+    border-radius: 8px;
+    background-color: #0e8784;
+  }
+
+  &_card_title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #fefcf7;
+    margin-top: 24px;
+  }
+
+  &_card_text {
+    width: 255px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #fefcf7;
+  }
+
+  &_div {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    bottom: -180px;
+  }
 }
 
-.why_title {
-  font-family: "Fraunces";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 40px;
-  line-height: 48px;
-  text-align: center;
-  color: #fefcf7;
-}
+@media only screen and (max-width: 480px) {
+  .why {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
 
-.why_text {
-  width: 540px;
-  font-family: "Barlow";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  color: #fefcf7;
-  mix-blend-mode: normal;
-  opacity: 0.8;
-  margin-bottom: 220px;
-}
+    &_title {
+      width: 150%;
+      font-weight: 900;
+      font-size: 28px;
+      line-height: 28px;
+      text-align: center;
+      color: #fefcf7;
+    }
 
-.why_card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 30px;
-  width: 350px;
-  height: 382px;
-  border-radius: 8px;
-  background-color: #0e8784;
-}
+    &_text {
+      width: 150%;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #fefcf7;
+      opacity: 0.8;
+    }
 
-.why_card_title {
-  font-family: "Fraunces";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 32px;
-  text-align: center;
-  color: #fefcf7;
-  margin-top: 24px;
-}
+    &_div
+    {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      top: 900px;
+    }
 
-.why_card_text {
-  width: 255px;
-  font-family: "Barlow";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  color: #fefcf7;
-}
-
-.why_div {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  bottom: -180px;
+    &_card
+    {
+      width: 150%;
+      padding: 60px 0px;
+    }
+  }
 }

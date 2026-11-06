@@ -12,8 +12,8 @@
   color: #fefcf7;
   border: none;
 
-  &_btn:hover {
-    color: #0aa49f;
+  &:hover {
+    background-color: #0aa49f;
     transition: all 0.2s;
   }
 }

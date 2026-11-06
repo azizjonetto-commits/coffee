@@ -4,9 +4,8 @@
   justify-content: center;
   gap: 125px;
   margin-top: 170px;
-}
-
-.our_right {
+  
+&_right {
   display: flex;
   align-items: start;
   justify-content: start;
@@ -14,7 +13,7 @@
   gap: 32px;
 }
 
-.our_title {
+&_title {
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
@@ -23,7 +22,7 @@
   color: #333d4b;
 }
 
-.our_text {
+&_text {
   width: 540px;
   font-family: "Barlow";
   font-style: normal;
@@ -33,4 +32,5 @@
   color: #333d4b;
   mix-blend-mode: normal;
   opacity: 0.8;
+}
 }

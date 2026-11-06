@@ -8,16 +8,15 @@
   border-radius: 20px;
   margin-top: 170px;
   background-color: #282f38;
-}
-
-.step_top {
+  
+&_top {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 760px;
 }
 
-.step_circle {
+&_circle {
   width: 75px;
   height: 50px;
   border-radius: 50%;
@@ -25,14 +24,14 @@
   border: 2px solid #0e8784;
 }
 
-.step_hr {
+&_hr {
   height: 2px;
   border-radius: 20px;
   border: 2px solid #fdd6ba;
   width: 500px;
 }
 
-.step_bottom {
+&_bottom {
   display: flex;
   align-items: start;
   justify-content: start;
@@ -40,7 +39,7 @@
   margin-top: 30px;
 }
 
-.step_title {
+&_title {
   width: 255px;
   font-family: "Fraunces";
   font-style: normal;
@@ -50,7 +49,7 @@
   color: #fefcf7;
 }
 
-.step_text {
+&_text {
   width: 285px;
   font-family: "Barlow";
   font-style: normal;
@@ -60,10 +59,11 @@
   color: #fefcf7;
 }
 
-.step_div {
+&_div {
   display: flex;
   align-items: start;
   justify-content: start;
   flex-direction: column;
   gap: 40px;
+}
 }

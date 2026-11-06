@@ -10,9 +10,8 @@
   background-size: cover;
   border-radius: 20px;
   margin-top: 45px;
-}
 
-.plan_header_title {
+&_title {
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
@@ -21,7 +20,7 @@
   color: #fefcf7;
 }
 
-.plan_header_text {
+&_text {
   width: 445px;
   font-family: "Barlow";
   font-style: normal;
@@ -31,4 +30,5 @@
   color: #fefcf7;
   mix-blend-mode: normal;
   opacity: 0.8;
+}
 }
