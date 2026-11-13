@@ -67,3 +67,34 @@
   gap: 40px;
 }
 }
+
+
+@media only screen and (max-width:480px)
+{
+  .step_top
+  {
+    display: none;
+  }
+
+  .step_bottom
+  {
+    flex-direction: column;
+  }
+
+  .step_div
+  {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .step_text
+  {
+    width: 140%;
+  }
+
+  .step_title
+  {
+    width: 150%;
+  }
+}

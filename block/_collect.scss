@@ -10,7 +10,6 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
-    // margin: 130px 0;
   }
 
   &_div {
@@ -54,5 +53,28 @@
   }
   .collect_img {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  .collect_divs {
+    flex-direction: column;
+  }
+  .collect_img
+  {
+    width: 100%;
+  }
+  .collect_div
+  {
+    flex-direction: row;
+  }
+  .collect_title,
+  .collect_text
+  {
+    text-align: start;
+  }
+  .collect_title
+  {
+    margin-bottom: 25px;
   }
 }

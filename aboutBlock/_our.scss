@@ -34,3 +34,25 @@
   opacity: 0.8;
 }
 }
+
+
+@media only screen and (max-width:480px)
+{
+  .our
+  {
+    flex-direction: column;
+
+    &_right
+    {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &_text
+    {
+      width: 90%;
+      text-align: center;
+    }
+  }
+}

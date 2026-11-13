@@ -8,33 +8,67 @@
   padding: 85px;
   margin-top: 256px;
   background-color: rgb(40, 47, 56);
-  
-&_title {
-  font-family: "Fraunces";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 40px;
-  line-height: 48px;
-  color: #fefcf7;
-  margin-bottom: 32px;
+
+  &_title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fefcf7;
+    margin-bottom: 32px;
+  }
+
+  &_text {
+    width: 540px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-top: 32px;
+  }
+
+  &_right {
+    position: absolute;
+    top: -80px;
+    left: 750px;
+  }
 }
 
-&_text {
-  width: 540px;
-  font-family: "Barlow";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  color: #fefcf7;
-  mix-blend-mode: normal;
-  opacity: 0.8;
-  margin-top: 32px;
-}
+@media only screen and (max-width: 480px) {
+  .quality {
+    flex-direction: column-reverse;
+    border-radius: 10px;
+    padding: 50px;
 
-&_right {
-  position: absolute;
-  top: -80px;
-  left: 750px;
-}
+    &_left {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    &_title {
+      width: 95%;
+      margin-top: 50px;
+    }
+
+    &_text {
+      width: 95%;
+    }
+
+    &_right {
+      top: -100px;
+      left: 70px;
+    }
+    &_img
+    {
+      width: 300px;
+      height: 180px;
+      border-radius: 10px;
+    }
+  }
 }

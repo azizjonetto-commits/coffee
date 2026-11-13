@@ -149,3 +149,34 @@
 .drink_btn {
   margin-left: 510px;
 }
+
+@media only screen and (max-width: 480px) {
+  .drink {
+    flex-direction: column;
+
+    &_left {
+      display: none;
+    }
+    &_img
+    {
+      margin-top: 100px;
+    }
+    &_btn
+    {
+      margin: auto;
+    }
+    .section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      &_div {
+        flex-direction: column;
+      }
+      &_card {
+        width: 200%;
+        height: 200px;
+      }
+    }
+  }
+}

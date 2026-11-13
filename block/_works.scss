@@ -118,9 +118,31 @@
       color: #333d4b;
     }
 
-    &_top
-    {
+    &_top {
       display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  .work {
+    margin-top: 650px;
+    width: 100%;
+    &_top {
+      width: 70%;
+    }
+    &_circle {
+      width: 70px;
+      height: 30px;
+    }
+    &_bottom {
+      gap: 0px;
+    }
+    &_text {
+      width: 70%;
+    }
+    &_title {
+      width: 100%;
     }
   }
 }

@@ -1,49 +1,64 @@
-.country
-{
-    display: flex;
-    align-items: start;
-    justify-content: start;
-    flex-direction: column;
-    gap: 72px;
-    margin-top: 170px;
+.country {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 72px;
+  margin-top: 170px;
 
-
-
-&_div
-{
+  &_div {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 100px;
-}
+  }
 
-&_card
-{
+  &_card {
     display: flex;
     align-items: start;
     justify-content: start;
     flex-direction: column;
     gap: 10px;
+  }
+
+  &_title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333d4b;
+  }
 }
 
-&_title
-{
-font-family: 'Fraunces';
-font-style: normal;
-font-weight: 900;
-font-size: 32px;
-line-height: 36px;
-color: #333D4B;
-}
+.head {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
 }
 
+@media only screen and (max-width: 480px) {
+  .country {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
-.head
-{
-font-family: 'Fraunces';
-font-style: normal;
-font-weight: 900;
-font-size: 24px;
-line-height: 32px;
-color: #83888F;
+    &_div {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    &_card
+    {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+  }
 }
